@@ -17,7 +17,7 @@ export default function HomeSection() {
       <StyledNavBar>
         <div className=" nav-Bar mx-auto container">
           <div className=" navBar-link ">
-            <Link className="" to="/">
+            <Link className="" to="/delivery">
               Оплата и доставка
             </Link>
             <Link className="" to="/">
@@ -35,22 +35,22 @@ export default function HomeSection() {
         </div>
         <div className="mx-auto container below-nav">
           <div className=" nav-Link">
-            <li className="nav-item">
+            <li className="list-none nav-item">
               <Link className="navLinks" to="/second-header">
                 Одежда
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="list-none nav-item">
               <Link className="navLinks" to="/">
                 Обувь
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="list-none nav-item">
               <Link className="navLinks" to="/">
                 Аксессуары
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="list-none nav-item">
               <Link className="navLinks" to="/">
                 Скидки
               </Link>
@@ -68,20 +68,19 @@ export default function HomeSection() {
               <h5>Акции</h5>
             </div>
             <div className="boxes md:flex">
-              <div className="box-one">
+              <div className="border-2 rounded-3xl box-one">
                 <div className="box-one__img">
                   {" "}
                   <h5>-20%</h5>
                 </div>
-                <img src={boxOne} alt="first box" />
+                <img src={boxOne} alt="first box" className="w-full" />
                 <h6 className="girl">Костюм для девочки</h6>
                 <div className="price md:flex">
                   <h5 className="five">599 ₽</h5>
                   <h5 className="seven">719 ₽</h5>
                 </div>
-                <div className="md:flex">
-                  <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-                    {" "}
+                <div className=" p-3 flex">
+                  <button className="mr-6 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                     Смотреть
                   </button>
                   <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
@@ -89,16 +88,15 @@ export default function HomeSection() {
                   </button>
                 </div>
               </div>
-              <div className="box-one">
-                <img src={boxOne} alt="first box" />
+              <div className="border-2 rounded-3xl box-one">
+                <img src={boxOne} alt="first box" className="w-full" />
                 <h6 className="girl">Костюм для девочки</h6>
                 <div className="price md:flex">
                   <h5 className="five">599 ₽</h5>
                   <h5 className="seven">719 ₽</h5>
                 </div>
-                <div className="md:flex">
-                  <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-                    {" "}
+                <div className="p-3 md:flex">
+                  <button className="mr-6 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                     Смотреть
                   </button>
                   <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
@@ -106,19 +104,19 @@ export default function HomeSection() {
                   </button>
                 </div>
               </div>
-              <div className="box-one">
+              <div className="border-2 rounded-3xl box-one">
                 <div className="box-one__img">
                   {" "}
                   <h5>-20%</h5>
                 </div>
-                <img src={boxOne} alt="first box" />
+                <img src={boxOne} alt="first box" className="w-full" />
                 <h6 className="girl">Костюм для девочки</h6>
                 <div className="price md:flex">
                   <h5 className="five">599 ₽</h5>
                   <h5 className="seven">719 ₽</h5>
                 </div>
-                <div className="md:flex">
-                  <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                <div className=" p-3 md:flex">
+                  <button className=" mr-6 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                     {" "}
                     Смотреть
                   </button>
@@ -127,16 +125,15 @@ export default function HomeSection() {
                   </button>
                 </div>
               </div>
-              <div className="box-one">
-                <img src={boxOne} alt="first box" />
+              <div className="border-2 rounded-3xl box-one">
+                <img src={boxOne} alt="first box" className="w-full" />
                 <h6 className="girl">Костюм для девочки</h6>
                 <div className="price md:flex">
                   <h5 className="five">599 ₽</h5>
                   <h5 className="seven">719 ₽</h5>
                 </div>
-                <div className="md:flex">
-                  <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-                    {" "}
+                <div className=" p-3 md:flex">
+                  <button className=" mr-6 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                     Смотреть
                   </button>
                   <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
