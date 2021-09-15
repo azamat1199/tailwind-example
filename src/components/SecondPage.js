@@ -14,7 +14,7 @@ export default function secondPage() {
       <StyledNavBar>
         <div className=" nav-Bar mx-auto container">
           <div className=" navBar-link ">
-            <Link className="" to="/delivery-and-payment">
+            <Link className="" to="/">
               Оплата и доставка
             </Link>
             <Link className="" to="/">
@@ -25,7 +25,7 @@ export default function secondPage() {
             </Link>
           </div>
           <div>
-            <Link className="" to="/home-section">
+            <Link className="" to="/">
               <img src={korzina} alt="korzina" />
             </Link>
           </div>

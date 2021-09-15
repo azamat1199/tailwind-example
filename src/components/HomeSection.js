@@ -36,7 +36,7 @@ export default function HomeSection() {
         <div className="mx-auto container below-nav">
           <div className=" nav-Link">
             <li className="list-none nav-item">
-              <Link className="navLinks" to="/second-header">
+              <Link className="navLinks" to="/second-page">
                 Одежда
               </Link>
             </li>

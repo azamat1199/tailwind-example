@@ -1,10 +1,9 @@
 import "./App.css";
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import Header from "./components/SecondPage";
+import SecondPage from "./components/SecondPage";
 import HomeSection from "./components/HomeSection";
 import "tailwindcss/tailwind.css";
-import secondPage from "./components/SecondPage";
 import Delivery from "./components/Desktop3/Delivery";
 
 function App() {
@@ -17,14 +16,11 @@ function App() {
       </Switch> */}
       {/* <Header /> */}
       <Switch>
-        <Route component={Header} exact path="/second-header" />
+        <Route component={SecondPage} exact path="/second-page" />
+        <Route component={Delivery} exact path="/delivery" />
         <Route component={HomeSection} />
-        <Route component={secondPage} exact path="/second-page" />
-        <Route component={Delivery} exact path="/delivery " />
+        {/* <Route component={secondPage} exact path="/second1" /> */}
       </Switch>
-
-      {/* <HomeSection /> */}
-      {/* <Footer /> */}
     </div>
   );
 }
