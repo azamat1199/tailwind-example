@@ -5,6 +5,7 @@ import SecondPage from "./components/SecondPage";
 import HomeSection from "./components/HomeSection";
 import "tailwindcss/tailwind.css";
 import Delivery from "./components/Desktop3/Delivery";
+import Basket from "./components/Desktop4/Basket";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Switch>
         <Route component={SecondPage} exact path="/second-page" />
         <Route component={Delivery} exact path="/delivery" />
+        <Route component={Basket} exact path="/basket" />
         <Route component={HomeSection} />
         {/* <Route component={secondPage} exact path="/second1" /> */}
       </Switch>

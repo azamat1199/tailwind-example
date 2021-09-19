@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import brand from "../../img/brand.svg";
 import korzina from "../../img/korzina.svg";
 import { StyledFooter } from "../../styles/Header";
+import cardGirl from "../../img/card-girl.svg";
+import cardLine from "../../img/card-line.svg";
+import miniGirl from "../../img/mini-girl.svg";
 
 export default function Delivery() {
   return (
@@ -46,7 +49,59 @@ export default function Delivery() {
           оформление заказа.
         </p>
       </div>
-      <div className="color">
+      {/* <div>
+        <div className="container mx-auto">
+          <div className="border-2  my-5 rounded-3xl border-gray-300 flex flex">
+            <img src={cardGirl} alt=" card girl" />
+            <div className="p-12">
+              <h5 className="text-left  text-gray-500 text-xl font-medium	 text-base ">
+                Платье с цветочным узором
+              </h5>
+              <div className=" mt-5 mb-5 flex">
+                <h5 className=" mr-4 text-gray-500 text-xl font-medium text-left">
+                  899 ₽
+                </h5>
+                <strike className="  text-gray-300 text-lg font-medium ">
+                  839 ₽
+                </strike>
+              </div>
+              <img src={cardLine} alt="card line" className="  " />
+              <select className="mt-7 focus:outline-none focus:ring focus:border-blue-300 w-64	 rounded border-gray-300			">
+                <option>Размер 1</option>
+                <option>Размер 2</option>
+                <option>Размер 3</option>
+                <option>Размер 4</option>
+              </select>
+              <button class=" block  mt-5  w-64	 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                В корзину
+              </button>
+              <h5 className=" mt-7 mb-3 text-gray-300 text-base font-medium text-left ">
+                Описание:
+              </h5>
+              <p className=" text-left text-gray-300 text-base font-medium ">
+                Описание: Платье Bossa Nova выполнено из эластичного супрема.
+                Детали: застежка на кнопку на спине, завышенная талия, оборка по
+                низу изделия, укороченный рукав. В составе платья 100% хлопок.
+              </p>
+            </div>
+          </div>
+          <div className="border-2  my-5 rounded-3xl border-gray-300 ">
+            <h5 className="  text-gray-500 text-xl font-medium mb-2 ">
+              Отзывы
+            </h5>
+            <div className="flex justify-evenly	">
+              <img src={miniGirl} alt="mini girl" />
+              <img src={miniGirl} alt="mini girl" />
+              <img src={miniGirl} alt="mini girl" />
+              <img src={miniGirl} alt="mini girl" />
+            </div>
+            <h5 className="  mt-3 text-gray-300 text-sm font-medium ">
+              Другие отзывы
+            </h5>
+          </div>
+        </div>
+      </div> */}
+      <div className=" mt-40 color">
         <StyledFooter>
           <div className="flex p-8 justify-between mx-auto items-center container ">
             <img src={brand} alt="brand logo" className="below-logo" />
